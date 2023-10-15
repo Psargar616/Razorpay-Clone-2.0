@@ -1,0 +1,56 @@
+
+ /*  */
+ .blue-wave{
+    
+    /* background-image: url(https://razorpay.com/build/browser/static/wave-blue.3362585e.svg); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    /* to place img above grid cards */
+    z-index: 110;
+    bottom: 1rem;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+ }
+
+ .card:hover .blue-wave{
+    opacity: 1;
+ }
+
+ .card:hover .g-icon{
+    background-color: lightskyblue;
+ }
+ 
+ .card:hover svg{
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 0.4));
+ 
+}
+ 
+
+.swiper {
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+ .swiper {
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
